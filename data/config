@@ -8,24 +8,137 @@ lk="\e[1;33m" # kuning terang
 lh="\e[1;32m" # hijau terang
 lb="\e[1;34m" # langit biru
 n="\e[0m" # netral
-w="\e[1;37m" # putih tebal
-
 clear
+function banner() {
 
-# Check if metasploit is already installed
-if command -v msfconsole &> /dev/null; then
-    echo -e "${lh}[+] Metasploit is already installed.${n}"
-else
-    echo -e "${lk}[!] Metasploit not found. Installing...${n}"
-    
-    # Run the correct package installation
-    # Using 'metasploit-framework' is the standard package name for Kali
-    xterm -T "☣ INSTALLING METASPLOIT ☣" -geometry 100x30 -e "sudo apt-get update && sudo apt-get install metasploit-framework -y"
-    
-    # Verification
-    if command -v msfconsole &> /dev/null; then
-        echo -e "${lh}[+] Metasploit installed successfully.${n}"
-    else
-        echo -e "${lm}[-] Installation failed.${n}"
-    fi
-fi
+echo -e "${lb}
+   _______ __               __
+  / ____(_) /   ____  _____/ /_______
+ / /   / / /   / __ \/ ___/ //_/ ___/
+/ /___/ / /___/ /_/ / /__/ ,< (__  )
+\____/_/_____/\____/\___/_/|_/____/
+${n}"
+echo -e "${m}   Crack Interface LockScreen${n}"
+echo -e "${lb}      LoliC0d3 - Tegal1337${n}"
+}
+banner
+
+echo "Please Wait.   / "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait..  | "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait... \ "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait.   / "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait..  | "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait... \ "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait.   / "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait..  | "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait... \ "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait.   / "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait..  | "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait... \ "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait.   / "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait..  | "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait... \ "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait.   / "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait..  | "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait... \ "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait.   / "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait..  | "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait... \ "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait.   / "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait..  | "
+sleep 0.5
+clear
+banner
+
+echo "Please Wait... \ "
+sleep 0.5
+clear
+banner
